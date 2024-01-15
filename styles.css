@@ -1,0 +1,159 @@
+/* SHARED COMMON STYLES */
+*{
+    
+}
+
+/* NAVBAR STYLES */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 135px 49px 135px;
+}
+
+    @font-face {
+        font-family: 'Magic School One';
+        src: url('../custom-fonts/magic-school-one.ttf');
+    }
+    .navbar .page-title{
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        font-family: 'Magic School One';
+        gap: 25px;
+    }
+
+        .logo{
+            width: 90px;
+            height: 90px;
+        }
+
+    .nav-button{
+        display: flex;
+        gap: 44px;
+    }
+
+        .navbar button{
+            color: var(--Dark-02, #424247);
+            text-align: center;
+            padding: 0;
+            border: none;
+            background-color: #FFFFFF;
+
+            font-family: "Mulish", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        button:hover{
+            font-weight: bold;
+        }
+
+
+
+/* MEDIA QUERIES */
+
+/* Small Devices (Mobile): */
+@media screen and (max-width: 576px){
+    .navbar{
+        display: block;
+        padding: 0px 20px 20px 20px;
+    }
+    
+        @font-face {
+            font-family: 'Magic School One';
+            src: url('../custom-fonts/magic-school-one.ttf');
+        }
+        .navbar .page-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            font-family: 'Magic School One';
+            gap: 15px;
+            margin-right: 10px;
+        }
+    
+            .logo{
+                width: 60px;
+                height: 60px;
+            }
+    
+        .nav-button{
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+        }
+    
+            .navbar button{
+                color: var(--Dark-02, #424247);
+                text-align: center;
+                padding: 0;
+                border: none;
+                background-color: #FFFFFF;
+    
+                font-family: "Mulish", sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+            }
+    
+            button:focus{
+                font-weight: bold;
+            }
+}
+
+
+/* Medium Devices (Tablet): */
+@media screen and (min-width: 576px) and (max-width:992px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px 20px 25px;
+    }
+    
+        @font-face {
+            font-family: 'Magic School One';
+            src: url('../custom-fonts/magic-school-one.ttf');
+        }
+        .navbar .page-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            font-family: 'Magic School One';
+            gap: 15px;
+            margin-right: 10px;
+        }
+    
+            .logo{
+                width: 60px;
+                height: 60px;
+            }
+    
+            .nav-button{
+                display: flex;
+                gap: 16px;
+                justify-content: center;
+            }
+        
+                .navbar button{
+                    color: var(--Dark-02, #424247);
+                    text-align: center;
+                    padding: 0;
+                    border: none;
+                    background-color: #FFFFFF;
+        
+                    font-family: "Mulish", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+        
+                button:focus{
+                    font-weight: bold;
+                }
+ }
