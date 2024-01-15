@@ -15,7 +15,7 @@
 
     @font-face {
         font-family: 'Magic School One';
-        src: url('../B9A2-PatronousExpress/custom-fonts/magic-school-one.ttf');
+        src: url('../B9A2-PatronousExpress/fonts/magic-school-one.ttf');
     }
     .navbar .page-title{
         display: flex;
@@ -128,7 +128,7 @@ footer .all-rights{
     
         @font-face {
             font-family: 'Magic School One';
-            src: url('../B9A2-PatronousExpress/custom-fonts/magic-school-one.ttf');
+            src: url('../B9A2-PatronousExpress/fonts/magic-school-one.ttf');
         }
         .navbar .page-title{
             display: flex;
@@ -246,7 +246,7 @@ footer .all-rights{
     
         @font-face {
             font-family: 'Magic School One';
-            src: url('../B9A2-PatronousExpress/custom-fonts/magic-school-one.ttf');
+            src: url('../B9A2-PatronousExpress/fonts/magic-school-one.ttf');
         }
         .navbar .page-title{
             display: flex;
