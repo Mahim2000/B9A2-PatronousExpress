@@ -1,6 +1,6 @@
 /* SHARED COMMON STYLES */
 *{
-    
+
 }
 
 /* NAVBAR STYLES */
@@ -9,7 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 135px 49px 135px;
+    padding: 0px 135px 0px 135px;
+    margin-bottom: 49px;
 }
 
     @font-face {
@@ -24,7 +25,7 @@
         gap: 25px;
     }
 
-        .logo{
+        .navbar .logo{
             width: 90px;
             height: 90px;
         }
@@ -50,6 +51,69 @@
         button:hover{
             font-weight: bold;
         }
+
+
+/* FOOTER STYLES */
+
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+
+footer > .page-title{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Magic School One';
+    gap: 25px;
+}
+    footer .logo{
+        width: 80px;
+        height: 80px;
+    }
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 336px 0 336px;
+
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+}
+    .footer-desc{
+        padding-bottom: 32px;
+    }
+    .footer-social{
+        width: 25%;
+        height: 25%;
+        flex-shrink: 0;
+        margin-bottom: 50px;
+    }
+footer hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border: none;
+    margin-bottom: 50px;
+}
+footer .all-rights{
+    text-align: center;
+    padding-bottom: 110px;
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
 
 
 
