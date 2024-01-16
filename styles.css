@@ -434,6 +434,65 @@ footer .all-rights{
                     transform: scale(105%);
                 }
 
+    /* Attraction */
+
+    .attraction-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+    }
+
+        .attraction{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .attraction-text{
+                width: 335px;
+                margin-right: 0px;
+                text-align: center;
+                padding-top: 24px;
+            }
+
+                .attraction-text h1{
+                    color: #131318;
+                    font-family: Mulish;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 800;
+                }
+
+                .attraction-text .feature-list{
+                    color: rgba(19, 19, 24, 0.70);
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400; 
+                }
+
+                .blog-read h3{
+                    color: rgb(0, 0, 0);
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }        
+
+                .blog-read{
+                margin-top: 48px;
+                padding-bottom: 24px;
+            }
+
+
+            .attraction-image{
+                display: flex;
+                width: 335px;
+                height: 342px;
+                flex-shrink: 0; 
+                
+            }
+
     
     /* Footer */
 
@@ -652,6 +711,65 @@ footer .all-rights{
                     transform: scale(105%);
                 }
 
+
+    /* Attraction */
+
+    .attraction-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+    }
+
+        .attraction{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .attraction-text{
+                width: 700px;
+                margin-right: 0px;
+                text-align: center;
+                padding-top: 24px;
+            }
+
+                .attraction-text h1{
+                    color: #131318;
+                    font-family: Mulish;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 800;
+                }
+
+                .attraction-text .feature-list{
+                    color: rgba(19, 19, 24, 0.70);
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400; 
+                }
+
+                .blog-read h3{
+                    color: rgb(0, 0, 0);
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }        
+
+                .blog-read{
+                margin-top: 48px;
+                padding-bottom: 24px;
+            }
+
+
+            .attraction-image{
+                display: flex;
+                width: 335px;
+                height: 342px;
+                flex-shrink: 0; 
+                
+            }
 
     
     /* Footer */
