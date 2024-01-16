@@ -1,6 +1,20 @@
 /* SHARED COMMON STYLES */
-*{
 
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none; 
+
+    color: #FFF; 
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    transition: 0.1s;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -127,27 +141,66 @@
             text-align: center;
         }
 
-        form > .submit{
-            width: 174px;
-            height: 52px;
-            flex-shrink: 0;
-            border-radius: 8px;
-            background: #FF5400;
-            border: none; 
 
-            color: #FFF; 
-            font-family: Mulish;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            text-align: center;
-            transition: 0.1s;
-        }
-            .submit:hover{
+            .btn-primary:hover{
                 background: #d64c07;
                 transform: scale(105%);
             }
 
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* ATTRACTION STYLES */
+
+.attraction-container{
+    display: flex;
+    padding: 100px 135px 0px 135px;
+    justify-content: center;
+}
+
+    .attraction{
+        display: flex;
+    }
+        .attraction-text{
+            width: 400px;
+            margin-right: 53px;
+        }
+
+            .attraction-text h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            .attraction-text .feature-list{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+            }
+
+            .blog-read h3{
+                color: rgb(0, 0, 0);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+            }        
+
+            .blog-read{
+            margin-top: 48px;
+        }
+
+
+        .attraction-image{
+            width: 540px;
+            height: 550px;
+            flex-shrink: 0; 
+            
+        }
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
@@ -226,6 +279,25 @@ footer .all-rights{
 /* Small Devices (Mobile): */
 @media screen and (max-width: 576px){
     
+    /* SHARED */
+
+    .btn-primary{
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none; 
+
+        color: #FFF; 
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        transition: 0.1s;
+    }
+
     /* Navbar */
 
     .navbar{
@@ -357,23 +429,7 @@ footer .all-rights{
                 text-align: center;
             }
     
-            form > .submit{
-                width: 200px;
-                height: 40px;
-                flex-shrink: 0;
-                border-radius: 8px;
-                background: #FF5400;
-                border: none; 
-    
-                color: #FFF; 
-                font-family: Mulish;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                text-align: center;
-                transition: 0.1s;
-            }
-                .submit:focus{
+                .btn-primary:focus{
                     background: #d64c07;
                     transform: scale(105%);
                 }
@@ -448,6 +504,25 @@ footer .all-rights{
 
 /* Medium Devices (Tablet): */
 @media screen and (min-width: 576px) and (max-width:992px){
+
+    /* SHARED */
+
+    .btn-primary{
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none; 
+
+        color: #FFF; 
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        transition: 0.1s;
+    }
     
     /* Navbar */
     
@@ -572,23 +647,7 @@ footer .all-rights{
                 text-align: center;
             }
     
-            form > .submit{
-                width: 174px;
-                height: 52px;
-                flex-shrink: 0;
-                border-radius: 8px;
-                background: #FF5400;
-                border: none; 
-    
-                color: #FFF; 
-                font-family: Mulish;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                text-align: center;
-                transition: 0.1s;
-            }
-                .submit:hover{
+                .btn-primary:focus{
                     background: #d64c07;
                     transform: scale(105%);
                 }
