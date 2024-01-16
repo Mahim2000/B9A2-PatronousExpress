@@ -3,6 +3,8 @@
 
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+
 /* NAVBAR STYLES */
 
 .navbar{
@@ -51,6 +53,104 @@
         button:hover{
             font-weight: bold;
         }
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* BANNER STYLES */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/explore-travel.png");
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+    .banner h1{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    .banner h3{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        
+        padding: 0px 247px 0px 247px;
+        margin-top: -30px;
+    }
+
+    .banner .travel-form{
+        background: rgba(255, 255, 255, 0.30);
+        width: 800px;
+        height: 84px;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .travel-form form{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        form > input, select{
+            width: 174px;
+            height: 52px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: none;
+            background: #FFF;
+
+            color: rgba(19, 19, 24, 0.50);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        form > .submit{
+            width: 174px;
+            height: 52px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FF5400;
+            border: none; 
+
+            color: #FFF; 
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+            transition: 0.1s;
+        }
+            .submit:hover{
+                background: #d64c07;
+                transform: scale(105%);
+            }
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
 
 
 /* FOOTER STYLES */
@@ -115,6 +215,10 @@ footer .all-rights{
     font-weight: 300;
 }
 
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 
 /* MEDIA QUERIES */
