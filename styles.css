@@ -205,6 +205,67 @@
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
+
+/* CATALOGUE STYLES */
+
+.catalogue-container{
+    display: flex;
+    justify-content: center;
+}
+
+.catalogue{
+    padding-inline: 135px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1170px;
+}
+
+    .catalogue-text{
+        text-align: center;
+    }
+        .catalogue-text h1{
+            color: #131318;
+            font-family: Mulish;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800; 
+        }
+        .catalogue-text h3{
+            color: rgba(19, 19, 24, 0.70);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400; 
+
+            width: 643px;
+        }
+    
+    .catalogue-image{
+        width: 1170px;
+    }
+
+        .row{
+            display: flex;
+            justify-content: center;
+            padding-top: 24px;
+            gap: 24px;
+        }
+            #sr, #ks{
+                width: 374px;
+            }
+
+        .catalogue-image img{
+            width: 474px;
+            border-radius: 16px; 
+        }
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
 /* BD MOUNTAIN STYLES */
 
 .bd-mountain-container{
@@ -262,63 +323,6 @@
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-/* CATALOGUE STYLES */
-
-.catalogue-container{
-    display: flex;
-    justify-content: center;
-}
-
-.catalogue{
-    padding-inline: 135px;
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 1170px;
-}
-
-    .catalogue-text{
-        text-align: center;
-    }
-        .catalogue-text h1{
-            color: #131318;
-            font-family: Mulish;
-            font-size: 40px;
-            font-style: normal;
-            font-weight: 800; 
-        }
-        .catalogue-text h3{
-            color: rgba(19, 19, 24, 0.70);
-            font-family: Mulish;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400; 
-
-            width: 643px;
-        }
-    
-    .catalogue-image{
-        width: 1170px;
-    }
-
-        .row{
-            display: flex;
-            justify-content: center;
-            padding-top: 24px;
-            gap: 24px;
-        }
-            #sr, #ks{
-                width: 374px;
-            }
-
-        .catalogue-image img{
-            width: 474px;
-        }
-
-
-/* --------------------------------------------------------------------------------------------------------------------------- */
 
 /* FOOTER STYLES */
 
@@ -572,7 +576,7 @@ footer .all-rights{
                 .attraction-text h1{
                     color: #131318;
                     font-family: Mulish;
-                    font-size: 40px;
+                    font-size: 20px;
                     font-style: normal;
                     font-weight: 800;
                 }
@@ -580,7 +584,7 @@ footer .all-rights{
                 .attraction-text .feature-list{
                     color: rgba(19, 19, 24, 0.70);
                     font-family: Mulish;
-                    font-size: 16px;
+                    font-size: 13px;
                     font-style: normal;
                     font-weight: 400; 
                 }
@@ -605,6 +609,61 @@ footer .all-rights{
                 height: 342px;
                 flex-shrink: 0; 
                 
+            }
+
+
+    /* Catalogue */
+    
+    .catalogue-container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogue{
+        padding-inline: 135px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 335px;
+    }
+    
+        .catalogue-text{
+            text-align: center;
+        }
+            .catalogue-text h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 800; 
+            }
+            .catalogue-text h3{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+    
+                width: 320px;
+            }
+        
+        .catalogue-image{
+            width: 335px;
+        }
+    
+            .row{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 24px;
+                gap: 24px;
+            }
+    
+            .catalogue-image img{
+                width: 335px;
+                border-radius: 16px; 
             }
 
 
@@ -942,6 +1001,62 @@ footer .all-rights{
                 height: 342px;
                 flex-shrink: 0; 
                 
+            }
+
+    /* catalogue */
+
+    .catalogue-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .catalogue{
+        padding-inline: 135px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 1170px;
+    }
+
+        .catalogue-text{
+            text-align: center;
+        }
+            .catalogue-text h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800; 
+            }
+            .catalogue-text h3{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+
+                width: 643px;
+            }
+        
+        .catalogue-image{
+            width: 1170px;
+        }
+
+            .row{
+                display: flex;
+                justify-content: center;
+                padding-top: 24px;
+                gap: 24px;
+            }
+                #sr, #ks{
+                    width: 230px;
+                }
+
+            .catalogue-image img{
+                width: 250px;
+                border-radius: 16px; 
             }
 
 
