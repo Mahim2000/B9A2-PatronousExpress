@@ -202,6 +202,64 @@
             
         }
 
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* BD MOUNTAIN STYLES */
+
+.bd-mountain-container{
+    display: flex;
+    padding: 100px 135px 0px 135px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .bd-mountain{
+        display: flex;
+    }
+        .bd-text{
+            width: 500px;
+            margin-right: 53px;
+        }
+
+            .bd-text h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            .bd-text .bd-list{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+            }
+
+            .bd-see h3{
+                color: rgb(0, 0, 0);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+            }        
+
+            .bd-see{
+            margin-top: 48px;
+        }
+
+
+        .bd-mountain-video{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0; 
+            
+        }
+
+
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 
