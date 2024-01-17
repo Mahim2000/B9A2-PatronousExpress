@@ -662,7 +662,7 @@ footer .all-rights{
                 .attraction-text h1{
                     color: #131318;
                     font-family: Mulish;
-                    font-size: 20px;
+                    font-size: 25px;
                     font-style: normal;
                     font-weight: 800;
                 }
@@ -721,7 +721,7 @@ footer .all-rights{
             .catalogue-text h1{
                 color: #131318;
                 font-family: Mulish;
-                font-size: 20px;
+                font-size: 25px;
                 font-style: normal;
                 font-weight: 800; 
             }
@@ -751,6 +751,92 @@ footer .all-rights{
                 width: 335px;
                 border-radius: 16px; 
             }
+
+
+    /* Trust */
+
+    .trust-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trust{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+        .trust-title{
+            width: 335px;
+            margin-right: 0px;
+            text-align: center;
+            padding-top: 0px;
+        }
+
+            .trust-title h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 800; 
+            }
+
+            .trust-title h3{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+            }
+
+        .card-1{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 0px;
+            padding-bottom: 16px;
+            align-items: center;
+        }
+
+            .b1{
+                padding-left: 32px;
+                padding-top: 32px;
+                width: 335px;
+                height: 289px; 
+                flex-shrink: 0;
+                border-radius: 16px;
+                border: 1px solid rgba(251, 181, 99, 0.20);
+                background: rgba(251, 181, 99, 0.05);
+            }
+
+            .b2{
+                padding-left: 32px;
+                padding-top: 32px;
+                width: 335px;
+                height: 289px;
+                flex-shrink: 0;
+                border-radius: 16px;
+                border: 1px solid rgba(41, 206, 246, 0.20);
+                background: rgba(41, 206, 246, 0.05); 
+            }
+                .b1 h1, .b2 h1{
+                    color: #131318;
+                    font-family: Mulish;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal; 
+                }
+                .b1 h3, .b2 h3{
+                    color: #5A5A5D;
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+
+                    padding-right: 55px;
+                }
 
 
     /* BD Mountain */
@@ -1089,7 +1175,7 @@ footer .all-rights{
                 
             }
 
-    /* catalogue */
+    /* Catalogue */
 
     .catalogue-container{
         display: flex;
@@ -1098,7 +1184,7 @@ footer .all-rights{
 
     .catalogue{
         padding-inline: 135px;
-        padding-top: 100px;
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1144,6 +1230,92 @@ footer .all-rights{
                 width: 250px;
                 border-radius: 16px; 
             }
+
+
+    /* Trust */
+
+    .trust-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trust{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+        .trust-title{
+            width: 335px;
+            margin-right: 0px;
+            text-align: center;
+            padding-top: 0px;
+        }
+
+            .trust-title h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 800; 
+            }
+
+            .trust-title h3{
+                color: rgba(19, 19, 24, 0.70);
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400; 
+            }
+
+        .card-1{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 0px;
+            padding-bottom: 16px;
+            align-items: center;
+        }
+
+            .b1{
+                padding-left: 32px;
+                padding-top: 32px;
+                width: 500px;
+                height: 250px; 
+                flex-shrink: 0;
+                border-radius: 16px;
+                border: 1px solid rgba(251, 181, 99, 0.20);
+                background: rgba(251, 181, 99, 0.05);
+            }
+
+            .b2{
+                padding-left: 32px;
+                padding-top: 32px;
+                width: 500px;
+                height: 250px;
+                flex-shrink: 0;
+                border-radius: 16px;
+                border: 1px solid rgba(41, 206, 246, 0.20);
+                background: rgba(41, 206, 246, 0.05); 
+            }
+                .b1 h1, .b2 h1{
+                    color: #131318;
+                    font-family: Mulish;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal; 
+                }
+                .b1 h3, .b2 h3{
+                    color: #5A5A5D;
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+
+                    padding-right: 55px;
+                }
 
 
     /* BD Mountain */
