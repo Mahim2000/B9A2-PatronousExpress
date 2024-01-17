@@ -991,19 +991,24 @@ footer .all-rights{
         display: flex;
         flex-direction: column;
         padding: 0px;
-        justify-content: center;
+        padding-top: 24px;
     }
 
         .news{
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
             .news-form{
                 width: 335px;
                 margin-right: 0px;
                 text-align: center;
                 padding-top: 24px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
             }
 
                 .news-form hr{
@@ -1057,9 +1062,11 @@ footer .all-rights{
                 }        
 
             .news-img{
+                display: flex;
                 width: 335px;
-                height: 300px; 
-                flex-shrink: 0;                
+                height: 200px; 
+                flex-shrink: 0;
+                justify-content: center;                
             }
 
     
