@@ -421,12 +421,17 @@
 
     .news{
         display: flex;
+        align-items: center;
     }
         .news-form{
             display: flex;
             flex-direction: column;
             width: 400px;
             margin-right: 53px;
+
+            border: 1px solid #FF5400;
+            padding: 40px;
+            border-radius: 8px;
         }
 
             .news-form hr{
@@ -449,10 +454,7 @@
                 flex-shrink: 0;
                 border-radius: 8px;
                 background: rgba(19, 19, 24, 0.05);
-                border: none;
-                padding-left: 24px;
-
-
+                border: none;                height: 52px; 
                 color: rgba(19, 19, 24, 0.30);
                 font-family: Mulish;
                 font-size: 16px;
@@ -979,6 +981,85 @@ footer .all-rights{
                 width: 335px;
                 height: 200px; 
                 flex-shrink: 0; 
+            }
+
+
+
+    /* NEWSLETTER STYLES */
+
+    .news-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+    }
+
+        .news{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .news-form{
+                width: 335px;
+                margin-right: 0px;
+                text-align: center;
+                padding-top: 24px;
+            }
+
+                .news-form hr{
+                    width: 288px;
+                    height: 1px; 
+                    background: rgba(19, 19, 24, 0.10); 
+                    border: none;
+                    margin-bottom: 16px;
+                }
+
+                .news-form form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                }
+
+                .news-form .form-text{
+                    width: 288px;
+                    height: 52px; 
+                    flex-shrink: 0;
+                    border-radius: 8px;
+                    background: rgba(19, 19, 24, 0.05);
+                    border: none;
+
+                    color: rgba(19, 19, 24, 0.30);
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400; 
+                }
+
+                .news-form #btn-sub{
+                    width: 288px;
+                    height: 52px; 
+                }
+
+                .news-form h1{
+                    color: #131318;
+                    font-family: Mulish;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 800; 
+                }
+
+                .news-form h3{
+                    color: #5A5A5D;
+                    font-family: Mulish;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;  
+                }        
+
+            .news-img{
+                width: 335px;
+                height: 300px; 
+                flex-shrink: 0;                
             }
 
     
