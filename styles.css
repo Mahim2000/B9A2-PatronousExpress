@@ -276,6 +276,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
     .trust-title{
@@ -301,10 +302,14 @@
 
     .card-1{
         display: flex;
-        text-align: center;
+        gap: 24px;
+        padding-top: 48px;
+        padding-bottom: 24px;
     }
 
         .b1{
+            padding-left: 32px;
+            padding-top: 32px;
             width: 573px;
             height: 284px;
             flex-shrink: 0;
@@ -312,25 +317,10 @@
             border: 1px solid rgba(251, 181, 99, 0.20);
             background: rgba(251, 181, 99, 0.05);
         }
-            .b1 h3, .b2 h3{
-                color: #5A5A5D;
-                font-family: Mulish;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-            }
-            .b1 h1, .b2 h1{
-                color: #131318;
-                text-align: center;
-                font-family: Mulish;
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 800;
-                line-height: normal; 
-            }
 
         .b2{
-            text-align: center;
+            padding-left: 32px;
+            padding-top: 32px;
             width: 573px;
             height: 284px;
             flex-shrink: 0;
@@ -338,6 +328,23 @@
             border: 1px solid rgba(41, 206, 246, 0.20);
             background: rgba(41, 206, 246, 0.05); 
         }
+            .b1 h1, .b2 h1{
+                color: #131318;
+                font-family: Mulish;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal; 
+            }
+            .b1 h3, .b2 h3{
+                color: #5A5A5D;
+                font-family: Mulish;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+
+                padding-right: 55px;
+            }
 
 
 
